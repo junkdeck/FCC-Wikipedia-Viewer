@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $("#searchinput").val("");
+    $('.wrapper').append("<div class='content'></div>");
     $('.content').fadeOut(0);
     // $('.content').css({"height":"0", "opacity":"0"});
     // $('.content').hide();
