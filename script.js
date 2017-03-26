@@ -20,6 +20,10 @@ $('#searchinput').keypress(function(e){
     }
 });
 
+$('.junq').on('click',function(){
+    window.open('https://github.com/junkdeck/','_blank');
+});
+
 function successCallback(data){
     if(!emptySearch){
         $('.searchbutton').fadeOut(50);

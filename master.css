@@ -175,6 +175,8 @@ a{
     position:absolute;
     right:10px;
     bottom:10px;
+
+    cursor:pointer;cursor:hand;
 }
 .junq::before{
     content:'';
